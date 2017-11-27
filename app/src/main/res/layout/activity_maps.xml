@@ -1,0 +1,32 @@
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:id="@+id/TF_location"
+        android:ems="10"
+        android:hint="Places"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@+id/TF_location"
+        android:id="@+id/TF_search"
+        android:text="Search"
+        />
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="470dp"
+    tools:context="com.example.tashf.myapplication128.MapsActivity" />
+    </RelativeLayout>

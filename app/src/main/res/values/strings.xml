@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application128</string>
+    <string name="get_location">Get Location</string>
+    <string name="fetch_location">Fetching location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="show_location_on_map">Show Location on map</string>
+</resources>

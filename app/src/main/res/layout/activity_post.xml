@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d1"
+    tools:context="com.example.tashf.myapplication128.PostActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/latitudeid"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:hint="Enter Latitude value"
+        android:background="@drawable/shadow_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longitudeid"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="Enter longitude value"
+        android:background="@drawable/shadow_text"
+        android:layout_below="@+id/latitudeid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aliveid"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Enter 0 or 1"
+        android:background="@drawable/shadow_text"
+        android:layout_below="@+id/longitudeid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postbuttonid"
+       android:layout_below="@+id/aliveid"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Submit Post"
+        android:textStyle="bold"
+        />
+     <ListView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_below="@+id/postbuttonid"
+         android:id="@+id/listviewid"
+         android:layout_marginTop="10dp"
+         >
+
+     </ListView>
+
+</RelativeLayout>
+
